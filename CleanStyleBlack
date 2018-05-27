@@ -1,0 +1,470 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f3f3f3;
+}
+
+a:link, a:visited, a:active {
+  color: #337700
+}
+
+mw-body-content a:link.external, a.external:visited {
+  color: #36b !IMPORTANT;
+}
+
+div#mw-panel div.portal div.body ul li a {
+   color: #337700
+}
+
+div#mw-panel div.portal div.body ul li a:visited {
+   color: #337700
+}
+
+.mw-body-content {
+  line-height: 1.4em;
+}
+
+#content {
+  margin-left: 11.3em;
+  padding-left: 2.7em;
+  border: none;
+  margin-top: 0;
+}
+
+mw-head-base {
+  padding: 0;
+  margin: 0;
+  border: none;
+}  
+
+#mw-page-base {
+ # background-image: linear-gradient(#ffffff 50%,#e6e6e6 100%);
+  background: black;
+}
+
+
+
+/*** MENYER ***/
+#p-personal li {
+ font-weight: normal;
+} 
+
+
+
+div#p-personal a {
+  color: #999;
+}
+
+a.new, #p-personal a.new {
+  color: #999;
+}
+
+
+#toc, .toc, .mw-warning, .toccolours {
+  border: none;
+  border-radius: 4px;
+  background-color: #e6e6e6;
+  padding: 1em;
+}
+
+#toc a {
+  color: #337700;
+}
+
+#toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle {
+  margin-bottom: 1.2em;
+}
+
+#righ-tnavigation ul li a {
+  background-color: #000;
+}
+
+div.vectorTabs ul {
+  background-color: #000;
+}
+
+div.vectorTabs li a {
+  height: 2em;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #fff;
+  padding-left: 0;
+}
+
+div.vectorMenu li a {
+  color: #000;
+}
+
+div#mw-panel div.portal h3 {
+  padding-top: 1em;
+  padding-bottom: 0;
+  padding-left: 0.6em;
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+
+li#ca-view.selected {
+  background: none;
+  color: #fff;
+}
+
+li#ca-edit.selected {
+  background: none;
+  color: #fff;
+}
+
+li#ca-viewsource.selected {
+  background: none;
+  color: #fff;
+}
+
+li#ca-nstab-special.selected {
+  background: none;
+  color: #fff;
+}
+
+li#ca-nstab-category.selected {
+  background: none;
+  color: #fff;
+}
+
+li#ca-nstab-mediawiki.selected {
+  background: #000;
+  text-decoration: none;
+}
+
+div.vectorTabs li.selected a, div.vectorTabs li.selected a:visited {
+  color: #fff;
+  background: none;
+}
+
+
+div#simpleSearch {
+  border-radius: 4px;
+  border: none;
+}
+
+div#simpleSearch #searchInput {
+  padding-top:0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+input#searchButton.searchButton {
+  margin-right: 0.5em;
+}
+
+li#ca-nstab-mediawiki.selected {
+  margin-top:0;
+}
+
+#ca-unwatch.icon a, #ca-watch.icon a {
+  padding-top: 2.3em;
+}
+
+div.vectorMenu h3 span {
+  color: #999;
+}
+
+
+
+
+/*** TA BORT BLÅ STRECK I MENYN ***/
+
+div#mw-head div.vectorMenu {
+  background-image: none;
+}  
+
+div#mw-head div.vectorMenu h3 {
+  background: none;
+  padding-left: 0;
+}
+
+div.vectorTabs {
+  background: none;
+  padding-left: 3.1em;
+}
+
+div.vectorTabs ul {
+  background: none;
+  padding-left: 0;
+}
+
+div.vectorTabs ul li {
+  background: none;
+  border: none;
+  font-weight: normal;
+  padding-right: 0.5em;
+  line-height: 1.4em;
+
+}
+
+div.vectorTabs span {
+  background: none;
+  padding-left: 0;
+}
+
+div.vectorTabs span a {
+  padding-top: 0.7em;
+}
+
+
+div#mw-panel div.portal div.body {
+  background-image: none;
+}
+
+
+/*** TA BORT ONÖDIGA FLIKAR ***/
+
+#ca-talk {
+  display: none !important;
+}
+
+#ca-nstab-main {
+  display: none !important;
+}
+
+
+/*** RUBRIKER ***/
+
+#firstHeading {
+  font-size: 3em;
+  border: none;
+}
+
+.mw-headline {
+  font-size: 1.4em;
+  padding-top: 2em;
+  margin-top: 2em;
+  margin-bottom: -2em;
+}
+
+.mw-body-content h2 {
+  padding-top: 1em;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 0.5em;
+  margin-bottom:2em;
+}
+
+.mw-body-content h4 {
+  margin-bottom: -0.5em;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+
+/*** INNEHÅLL ***/
+.ps {
+  color: #fff;
+  background-color: #013686;
+  border: none;
+  border-radius: 4px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-top: -1.2em;
+  font-weight: normal;
+  font-family: 'Consolas','Courier',monoscape;
+  line-height: 1.1em;
+  display: block;
+}
+
+.ps_oneline {
+  color: #fff;
+  background-color: #013686;
+  border: none;
+  border-radius: 4px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-top: -1.5em;
+  font-weight: normal;
+  font-family: 'Consolas','Courier',monoscape;
+  display: block;
+  vertical-align: text-top;
+}
+
+.bash {
+  color: #000;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 4px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-top: -1.2em;
+  font-weight: normal;
+  font-family: 'Consolas','Courier',monoscape;
+  display: inline-block;
+  line-height: 1.1em;
+}
+
+.bash2 {
+  color: #000;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 4px;
+  padding-left: 0.51em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-top: -1.2em;
+  font-weight: normal;
+  font-family: 'Consolas','Courier',monoscape;
+  display: block;;
+  line-height: 1.1em;
+}
+
+.configfile {
+  color: #000000;
+  background-color: #fafada;
+  border: none;
+  border-radius: 4px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-top: -1.2em;
+  font-weight: normal;
+  font-family: 'Consolas','Courier',monoscape;
+  display: block;
+  line-height: 1.1em;
+}
+
+pre, .mw-code {
+  color: #000000;
+  background-color: #fafada;
+  border: none;
+  border-radius: 4px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin-top: -1.2em;
+  font-weight: normal;
+  font-family: 'Consolas','Courier',monoscape;
+  display: block;
+  line-height: 1.1em;
+}
+
+code {
+  color: #000000;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 4px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-family: 'Consolas','Courier',monoscape;
+}
+
+.mw-specialpages-list {
+  margin: 1.5em;
+}
+
+.mw-specialpages-notes {
+  margin: 1.5em;
+}
+
+.mw-spcontent ul{
+  padding-top: 2em;
+}
+
+.mw-body-content h3 {
+  margin-bottom: 1em;
+}
+
+#catlinks {
+  border: none;
+  background-color: #e6e6e6;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-left: 0.5em;
+  padding-right: 0.51em;
+  margin-top: 2em;
+}
+
+#mv-highlight {
+  border: none;
+  background-color: #e6e6e6;
+  padding: 1em;
+}
+
+pre, .mw-code {
+  border: none;
+  background-color: #e6e6e6;
+  padding: 1em;
+}
+
+.wikitable {
+  border-radius:4px;
+}
+
+table.wikitable {
+  background-color: #ffffff; 
+}
+
+table.wikitable > tr > th, table.wikitable > * > tr > th {
+  background-color: #e6e6e6;
+}
+
+table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > * > tr > th, table.wikitable > * > tr > td {
+  border-color: #e6e6e6;
+}
+
+
+/*** LISTOR ***/
+
+.mw-content-ltr ol {
+  margin-left: 2em;
+}
+
+ul {
+  font-weight: normal;
+  list-style-image: none;
+}
+
+li {
+  margin-top: -1.3em;
+  margin-bottom: 1.4em;
+  padding: 0;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+
+dd {
+  margin-top: -1.5em;
+  margin-bottom: 1.3em;
+  padding-left: 1em;
+}
+
+
+
+.mw-content-ltr .toc ul, .mw-content-rtl .mw-content-ltr #toc ul {
+  padding: 0;
+  margin: 0;
+}
+
+.toclevel-1 li {
+  padding: 0;
+  margin: 0;
+}
